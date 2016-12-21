@@ -44,3 +44,5 @@ Usage:
     * Start a transaction: `BEGIN`
     * Commit a transaction: `COMMIT`
     * Rollback a transaction: `ROLLBACK`
+
+* PS: Count will give inconsistent results when run in between a transaction. Will update after fixing it.
