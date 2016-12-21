@@ -26,9 +26,9 @@ Setup
 	* Server:
 	 	*  `cd cache`  
 	 	*  `./gradlew build`      
-    *  `./gradlew execute`      
+        *  `./gradlew execute`      
 	
-  * Client:
+    * Client:
 	 	*  `cd cache-client`
 		*  `./gradlew build`
 		*  `./gradlew --console plain execute`
