@@ -1,0 +1,23 @@
+group 'cache.inmemorycache'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'javax.transaction:jta:1.1'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.google.inject.extensions:guice-multibindings:4.0'
+}
+
+task execute(type: JavaExec) {
+    main = "cache.inmemorycache.server.Server"
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
