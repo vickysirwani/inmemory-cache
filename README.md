@@ -35,5 +35,12 @@ Setup
 
 
 Usage:
----
-
+------
+*  **Once you run the client:**
+	* Set a key: `SET A B`
+    * Get a key: `GET A`
+    * Delete a key: `DELETE A`
+    * Count the number of occurences of value B: `COUNT A`
+    * Start a transaction: `BEGIN`
+    * Commit a transaction: `COMMIT`
+    * Rollback a transaction: `ROLLBACK`
