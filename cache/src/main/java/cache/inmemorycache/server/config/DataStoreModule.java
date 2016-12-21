@@ -1,4 +1,4 @@
-package cache.inmemorycache.server.internal.datastore.config;
+package cache.inmemorycache.server.config;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Singleton;
