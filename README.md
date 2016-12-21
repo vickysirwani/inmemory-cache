@@ -32,6 +32,7 @@ Setup
 	 	*  `cd cache-client`
 		*  `./gradlew build`
 		*  `./gradlew --console plain execute`
+	    * You can run multiple instances of the client by using the same commands in different terminal tabs.
 
 
 Usage:
